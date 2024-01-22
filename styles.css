@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+.container {
+  text-align: center;
+  padding: 50px;
+}
+
+.top-image-container {
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: pink;
+  border: none;
+  color: #fff;
+  margin: 0 10px;
+}
+
+.image-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 300px;  /* Set your preferred width */
+  height: 300px; /* Set your preferred height */
+  display: none;
+}
